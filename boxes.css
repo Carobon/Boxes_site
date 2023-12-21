@@ -1,0 +1,120 @@
+/* boxes.css */
+
+body {
+    margin: 0;
+    font-family: 'grafton', sans-serif; /* Change the font family as desired */
+}
+
+.banner {
+    background-color: #a306b6;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    width: 200%;
+    font-size: 34px; /* Change the font size as desired */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 25px;
+    background-color: #a306b6;
+    overflow: hidden;
+}
+
+nav ul li a:active {
+    background-color: white;
+    color: #a306b6;
+    padding: 14px 16px; /* Adjust padding as needed */
+    border-radius: 5px;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white; /* Default text color */
+}
+
+nav ul li a:hover {
+    background-color: white;
+    color: #a306b6;
+    display: block; /* Ensure the link takes up the full width */
+}
+
+nav ul li a.active {
+    background-color: #a306b6;
+    color: white;
+}
+
+h1{
+    margin: 0 auto; /* Center the main content */
+    max-width: 1100px; /* Set a max-width for the content */
+    padding: 30px;
+    background-color: #e0e0e0; /* Light grey background color */
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: block;
+}
+
+h2 {
+    margin: 0 auto; 
+    max-width: 800px; 
+    padding: 30px;
+    text-align: left;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: block;
+     
+}
+
+.form-section {
+    margin: 0 auto; 
+    max-width: 800px; 
+    margin-top: 10px;
+}
+
+.form-section label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.form-section input,
+.form-section textarea {
+    width: 100%;
+    padding: 16px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ddd; 
+    background-color: #e0e0e0; 
+    border-radius: 5px;
+}
+
+.form-section textarea {
+    resize: vertical; /* Allow vertical resizing of the textarea */
+}
+
+.form-section button {
+    padding: 14px;
+    background-color: #a306b6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer { 
+    background-color: #808080;
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+}
